@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: grey;
+}
+
+.main-visual {
+  height: 400px;
+  background-image: url(../img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+section {
+  padding: 20px 0 50px 0;
+}
+
+.main-visual-text {
+  padding: 20px;
+}
+
+section {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.box {
+  /*width: 840px; NG 親要素に指定変更*/
+  /* margin: 0 auto; NG 親要素に指定変更*/
+  padding: 30px 0 30px 0;
+  border-bottom: 0.6px solid;
+}
+
+/*
+background-position: 100% 100%;　NG
+background-position: bottom; answer 
+→違いは？？
+
+*/
